@@ -3,9 +3,31 @@
 
 
 
-
+/** NAV **/
 .navbar-dark .navbar-nav .nav-link {
     color: #0dcaf0;
     font-family: 'Graduate', cursive;
     font-size: 30px;
 }
+/** FIN NAV **/
+/** SECTION 1 **/
+.text-center {
+    text-align: center!important;
+    font-family: 'Graduate';
+}
+
+.justify-content-end {
+    justify-content: flex-end!important;
+    MARGIN-TOP: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+    .btn-primary {
+        color: #0dcaf0;
+        background-color: black;
+        border-color: black;
+        font-family: 'Graduate';
+        font-size: 20px;
+    }
+/** fin SECTION 1 **/
