@@ -100,7 +100,7 @@
                             besoins du client sont adaptés ou non au projet.</p>
                         <a href="https://miro.com/app/board/uXjVOvcvPYI=/#tpicker-content"
                             class="btn btn-primary">Miro</a>
-                        <a href="https://github.com/Ninaxtrem" class="btn btn-primary">GitHub</a>
+                        <a href="https://github.com/Ninaxtrem/control" class="btn btn-primary">GitHub</a>
                     </div>
                 </div>
             </div>
