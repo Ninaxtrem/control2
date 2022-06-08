@@ -56,6 +56,7 @@
                     </div>
                     <div class="col align-self-center">
                         <div class="mx-auto  w-75">
+
                             <p>
                                 <h2 class="text-center"> Présentation </h2>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos sunt tempore maxime
@@ -77,6 +78,103 @@
     </div>
 
     <!--  fin section 1-->
+
+    <!--  section 2-->
+    <h1 class="text-center">Projets.</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 1</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Maquettage</h5>
+                        <img src="assets/img/cpt.png" class="card-img-top" alt="...">
+                        <p class="card-text">Le maquettage est une méthode de conception d'interface qui nous permet de
+                            vous proposer des interfaces conformes à vos attentes et besoins. De s'assurer que les
+                            besoins du client sont adaptés ou non au projet.</p>
+                            <a href="https://miro.com/app/board/uXjVOvcvPYI=/#tpicker-content" class="btn btn-primary">Miro</a>
+                            <a href="https://github.com/Ninaxtrem" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 2</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 3</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 4</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 5</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 6</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 7</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="text-center">Projet 8</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  fin section 2-->
 
 
 
