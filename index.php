@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Examen</title>
 </head>
 
@@ -80,8 +83,9 @@
     <!--  fin section 1-->
 
     <!--  section 2-->
+
     <h1 class="text-center">Projets.</h1>
-    <div class="container">
+    <div class="sect2">
         <div class="row">
             <div class="col">
                 <div class="card border-info mb-3" style="max-width: 18rem;">
@@ -89,11 +93,14 @@
                     <div class="card-body">
                         <h5 class="card-title">Maquettage</h5>
                         <img src="assets/img/cpt.png" class="card-img-top" alt="...">
-                        <p class="card-text">Le maquettage est une méthode de conception d'interface qui nous permet de
-                            vous proposer des interfaces conformes à vos attentes et besoins. De s'assurer que les
+                        <p class="card-text">Le maquettage est une méthode de conception d'interface qui nous
+                            permet de
+                            vous proposer des interfaces conformes à vos attentes et besoins. De s'assurer que
+                            les
                             besoins du client sont adaptés ou non au projet.</p>
-                            <a href="https://miro.com/app/board/uXjVOvcvPYI=/#tpicker-content" class="btn btn-primary">Miro</a>
-                            <a href="https://github.com/Ninaxtrem" class="btn btn-primary">GitHub</a>
+                        <a href="https://miro.com/app/board/uXjVOvcvPYI=/#tpicker-content"
+                            class="btn btn-primary">Miro</a>
+                        <a href="https://github.com/Ninaxtrem" class="btn btn-primary">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +109,8 @@
                     <div class="text-center">Projet 2</div>
                     <div class="card-body">
                         <h5 class="card-title">Info card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk of
                             the card's content.</p>
                     </div>
                 </div>
@@ -112,7 +120,8 @@
                     <div class="text-center">Projet 3</div>
                     <div class="card-body">
                         <h5 class="card-title">Info card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk of
                             the card's content.</p>
                     </div>
                 </div>
@@ -122,15 +131,16 @@
                     <div class="text-center">Projet 4</div>
                     <div class="card-body">
                         <h5 class="card-title">Info card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk of
                             the card's content.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container">
+    </div>
+    <div class="sect2">
         <div class="row">
             <div class="col">
                 <div class="card border-info mb-3" style="max-width: 18rem;">
@@ -174,7 +184,47 @@
             </div>
         </div>
     </div>
+
     <!--  fin section 2-->
+
+    <!--  foother -->
+    <footer class="bg-dark text-center text-white">
+        <h2 class="text-center"> Réseaux Sociaux</h2>
+        <div class="container p-2">
+            <section class="mb-4">
+
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-row bd-highlight mb-3">
+
+                        <div class="p-2 bd-highlight"> <a href="https://www.github.com/" class="text-white">
+                                <h2><i class="fa-brands fa-github"></i></h2>
+                            </a></div>
+                        <div class="p-2 bd-highlight"><a href="" class="text-white">
+                                <h2><i class="fa-brands fa-facebook"></i></h2>
+                            </a></div>
+                        <div class="p-2 bd-highlight"><a href="" class="text-white">
+                                <h2><i class="fa-brands fa-instagram"></i></h2>
+                            </a></div>
+                        <div class="p-2 bd-highlight"><a href="" class="text-white">
+                                <h2><i class="fa-brands fa-linkedin"></i>
+                                </h2>
+                            </a></div>
+                        <div class="p-2 bd-highlight"><a href="" class="text-white">
+                                <h2><i class="fa-brands fa-twitter-square"></i></h2>
+                            </a></div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="text-center p-3">
+            © 2022 Copyright:
+            <a class="text-white">By Nina</a>
+        </div>
+
+    </footer>
+
+
+    <!--  fin foother-->
 
 
 
