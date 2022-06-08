@@ -38,10 +38,20 @@ body{
     .container-fluid{
         margin-bottom: 50px;
     }
+
+    .sect2{
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 /** fin SECTION 1 **/
 
 /**  SECTION 2 **/
 .text-center {
-   margin-bottom: 5%;
+    padding: 2%;
 }
 /** fin SECTION 2 **/
+
+/** foother **/
+
+/** fin foother **/
