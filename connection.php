@@ -27,13 +27,26 @@
     <div class="login-sqare">
         <h1 class="text-center">Connection</h1>
         <br>
-        <form class="sign-form" action="connection.php" method="POST">
+        <form class="sign-form" action="connect.php" method="POST">
+
+        <?php
+      if(isset($_GET['message'])) {
+        if($_GET['message'] == "success") {
+        echo"votre inscription a bien été prise en compte";
+        }
+
+          if($_GET['message'] == "error") {
+          echo"<div class=titre>Le mail rentré n'existe pas</div>";
+          }
+      }
+    
+      ?>
 
             <div class="mail">
                 <input class="input" type="email" name="email" placeholder="Email" required autocomplete="off" />
             </div>
             <div class="passeword">
-                <input class="input" type="password" name="password" placeholder="Mot de passe" required
+                <input class="input" type="password" name="password" placeholder="password" required
                     autocomplete="off" />
             </div>
             <div class="submit"><input type="submit" class="button">Connection</button></div>
