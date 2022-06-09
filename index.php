@@ -41,6 +41,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="">Projets</a>
                             </li>
+                            <div class="dropdown">
+<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profil
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#" target="_blank" rel="#">Connection</a></li>
+            <li><a class="dropdown-item" href="#" target="_blank" rel="#">Inscription</a></li>
+            <li><a class="dropdown-item" href="#" target="_blank" rel="#">Ajouter un projet</a></li>
+          </ul>
+</div> 
                         </ul>
                     </div>
                 </div>
