@@ -25,7 +25,26 @@
   <div class="login-sqare">
     <h1 class="title">Inscrption</h1>
 
-    <form action="inscriptionbdd.php" method="POST" class="sign-form">
+    <?php 
+     if(isset($_GET['message'])){
+      if($_GET['message'] == "error3") {
+      echo"<div class='title'>mail deja utiliser</div>";
+      }
+    }
+      if(isset($_GET['message'])){
+        if($_GET['message'] == "error2") {
+        echo"<div class='title'>Pseudo utilisé</div> ";
+        }
+      }
+   
+      if(isset($_GET['message'])){
+        if($_GET['message'] == "error") {
+        echo"<div class='title'>le mot de passe n'est pas identique</div>";
+        }
+      }
+      ?>
+
+    <form action="inscritptionbdd.php" method="post" class="sign-form">
       <div>
         <input class="input" type="text" name="nom" placeholder="Nom" required autocomplete="off" />
       </div>
