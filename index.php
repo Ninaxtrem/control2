@@ -46,8 +46,8 @@
             Profil
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#" target="_blank" rel="#">Connection</a></li>
-            <li><a class="dropdown-item" href="#" target="_blank" rel="#">Inscription</a></li>
+            <li><a class="dropdown-item" href="http://localhost/control2/control2/connection" target="_blank" rel="#">Connection</a></li>
+            <li><a class="dropdown-item" href="http://localhost/control2/control2/inscription" target="_blank" rel="#">Inscription</a></li>
             <li><a class="dropdown-item" href="#" target="_blank" rel="#">Ajouter un projet</a></li>
           </ul>
 </div> 
