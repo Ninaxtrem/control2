@@ -11,7 +11,7 @@
 $mdp = password_hash ($mdp, PASSWORD_DEFAULT);
   
 
-$sql = "SELECT * FROM ex_inscritpion WHERE nom_utilisateur = :nom_utilisateur";
+$sql = "SELECT * FROM ex_inscription WHERE nom_utilisateur = :nom_utilisateur";
 $requete= $bdd->prepare($sql);
 $requete->execute(array(
 ":nom_utilisateur"=> $nom));
@@ -34,7 +34,7 @@ if($count == 0){
          
          if($mail !== $resultat1['mail_utilisateur']){
                 
-                            $sql = "INSERT INTO  ex_inscription (nom_utilisateur, mail_utilisateur, mdp_utilisateur) VALUES (:nom_utilisateur, :mail_utilisateur, :mdp_utilisateur)";
+            $sql = "INSERT INTO ex_inscription (nom_utilisateur, mail_utilisateur, mdp_utilisateur, roles_utilisateur) VALUES (:nom_utilisateur, :mail_utilisateur, :mdp_utilisateur, '0')";
                             $requete= $bdd->prepare($sql);
                             $requete->execute(array(
                                 ':nom_utilisateur'=> $nom,
