@@ -1,3 +1,6 @@
+<?php session_start(); 
+ ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -46,9 +49,17 @@
             Profil
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="http://localhost/control2/control2/connection" target="_blank" rel="#">Connection</a></li>
-            <li><a class="dropdown-item" href="http://localhost/control2/control2/inscription" target="_blank" rel="#">Inscription</a></li>
-            <li><a class="dropdown-item" href="http://localhost/control2/crud.php" target="_blank" rel="#">Ajouter un projet</a></li>
+          <?php 
+            if (isset($_SESSION['nom'])) {
+              ?>
+            <li><a class="dropdown-item" href="../crud.php" target="_blank" rel="#">Ajouter un projet</a></li>
+            <li><a class="dropdown-item" href="deco.php" target="_blank" rel="#">Deconnection</a></li>
+            <?php }else { ?>
+            <li><a class="dropdown-item" href="connection.php" target="_blank" rel="#">Connection</a></li>
+            <li><a class="dropdown-item" href="inscription.php" target="_blank" rel="#">Inscription</a></li>
+            
+            <?php } ?>
+            
           </ul>
 </div> 
                         </ul>
