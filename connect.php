@@ -22,6 +22,7 @@ if ($count == 1 ){
             session_start();
             $_SESSION['id'] = $resultat['id_utilisateur'];
             $_SESSION['nom'] = $resultat['nom_utilisateur'];
+            $_SESSION['roles_utilisateur'] = $resultat['roles_utilisateur'];
          
             header("location:index.php?message=success");
             
