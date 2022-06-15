@@ -129,7 +129,7 @@
                 <div class="card border-info mb-3" style="max-width: 18rem;">
                     <div class="text-center">Projet 2</div>
                     <div class="card-body">
-                        <h5 class="card-title">Info card title</h5>
+                        <h5 class="card-title">Back</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the
                             bulk of
                             the card's content.</p>
